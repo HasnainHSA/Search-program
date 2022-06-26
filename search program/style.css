@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600;700;800;900&display=swap');body {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background: #efeeb4;
+   font-family: 'Poppins', sans-serif;
+   color: #454d66;
+}
+h1{
+  font-size: 40px;
+  text-align: center;
+}
+label{
+  font-size: 2Zpx;
+}
+.select {
+   -webkit-appearance:none;
+   -moz-appearance:none;
+   -ms-appearance:none;
+   appearance:none;
+   outline:0;
+   box-shadow:none;
+   border:0!important;
+   background: #58b368;
+   background-image: none;
+   font-size: 24px;
+   flex: 1;
+   padding: 0 .5em;
+   color:#fff;
+   cursor:pointer;
+   font-size: 1em;
+}
+.select::-ms-expand {
+   display: none;
+}
+.select {
+   position: relative;
+   font-size: large;
+   display: flex;
+   width: 20em;
+   height: 3em;
+   line-height: 3;
+   background: #58b368;
+   overflow: hidden;
+   border-radius: .25em;
+}
+.select::after {
+   content: '\25BC';
+   position: absolute;
+   top: 0;
+   right: 0;
+   padding: 0 1em;
+   background: #454d66;
+   cursor:pointer;
+   pointer-events:none;
+   transition:.25s all ease;
+}
+.select:hover::after {
+   color: #23b499;
+}
+
+
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #309975;
+  font-size: 24px;
+  color: white;
+}
+
+/* Style the container for inputs */
+#search-box {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.charactersList{
+ color: #454d66;
+ font-size: 40px;
+ text-align: center;
+}
+.image{
+ height: auto;
+ width: auto;
+}
